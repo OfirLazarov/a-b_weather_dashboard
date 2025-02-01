@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# a-b_weather_dashboard
-=======
+
 # Weather Dashboard Assignment
 
 ## Overview
