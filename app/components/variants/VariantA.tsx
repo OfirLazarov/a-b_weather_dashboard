@@ -10,10 +10,13 @@ export const VariantA = ({ city, weather }: WeatherProps) => {
     <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 mb-8">
       <div className="flex flex-col gap-6">
         <div>
-          <div className="flex items-center gap-3 mb-4">
+        <div className="flex items-center justify-between gap-3 mb-4">
             <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-blue-400 text-transparent bg-clip-text">
               {city}
             </h2>
+            <span className="px-2 py-1 text-sm border border-gray-200 dark:border-gray-600 text-blue-700 dark:text-blue-300 bg-gray-100 dark:bg-gray-700 rounded-full">
+              Celsius
+            </span>
           </div>
 
           <div className="flex items-center gap-4 mb-6">
